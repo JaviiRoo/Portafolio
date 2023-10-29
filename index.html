@@ -9,9 +9,10 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Mi Portafolio</div>
+            <ul class="nav-links">
                 <li><a href="#about">Sobre mí</a></li>
                 <li><a href="#projects">Proyectos</a></li>
                 <li><a href="#contact">Contacto</a></li>
@@ -19,28 +20,33 @@
         </nav>
     </header>
 
-    <section id="about">
-        <h1>Sobre mí</h1>
-        <p>¡Hola! Soy [Tu Nombre], un apasionado desarrollador de software.</p>
+    <section id="about" class="section">
+        <div class="container">
+            <h1>Sobre mí</h1>
+            <p>¡Hola! Soy [Tu Nombre], un apasionado desarrollador de software con experiencia en tecnologías como
+                JavaScript y Python.</p>
+        </div>
     </section>
 
-    <section id="projects">
-        <h2>Proyectos</h2>
-        <!-- Aquí puedes listar tus proyectos -->
-        <div class="project">
-            <h3>Proyecto 1</h3>
-            <p>Descripción del proyecto 1.</p>
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Proyectos</h2>
+            <div class="project">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto 1.</p>
+            </div>
+            <div class="project">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto 2.</p>
+            </div>
         </div>
-        <div class="project">
-            <h3>Proyecto 2</h3>
-            <p>Descripción del proyecto 2.</p>
-        </div>
-        <!-- Agrega más proyectos según sea necesario -->
     </section>
 
-    <section id="contact">
-        <h2>Contacto</h2>
-        <p>Puedes contactarme en: tuemail@example.com</p>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme en: tuemail@example.com</p>
+        </div>
     </section>
 </body>
 

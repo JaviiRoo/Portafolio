@@ -1,5 +1,4 @@
 # javiiroo.github.io
-Portfolio
 # [Javier Rodríguez Sánchez] - Desarrollador de Software
 
 ¡Hola! Soy [Javier Rodríguez Sánchez], un apasionado desarrollador de software con experiencia en [Java, SQL y Spring Boot]. Me encanta resolver problemas complejos y crear soluciones innovadoras. En mi tiempo libre, contribuyo a proyectos de código abierto y aprendo nuevas tecnologías.

@@ -5,10 +5,10 @@
 
 ## Habilidades Técnicas
 
-- **Lenguajes de Programación:** Java, HTML, CSS.
-- **Frameworks y Librerías:** Spring Boot, JSON, Hibernate
+- **Lenguajes de Programación:** Java, SQL, HTML, CSS.
+- **Frameworks y Librerías:** Spring Boot, JSON, Hibernate, Maven.
 - **Bases de Datos:** MongoDB, MySQL
-- **Herramientas:** Git, VS Code, Eclipse.
+- **Herramientas:** Git, VS Code, Eclipse, NetBeans, Linux.
 
 ## Proyectos Destacados
 

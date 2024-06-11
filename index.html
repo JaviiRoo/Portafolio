@@ -3,140 +3,298 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-image: url('ruta/a/tu/imagen.jpg');
-            background-size: cover;
-            color: white;
-        }
+    <title>Portfolio</title>
 
-        .header {
-            background-color: rgba(0, 0, 0, 0.7);
-            color: white;
-            padding: 1rem 0;
-            text-align: center;
-        }
+    <link rel="stylesheet" href="css/style.css">
 
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-
-        .nav-links li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        .section {
-            padding: 80px 0;
-            text-align: center;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .project {
-            background-color: rgba(255, 255, 255, 0.9);
-            border: 1px solid #ccc;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-
-        .project h3 {
-            margin-bottom: 10px;
-        }
-
-        .icon {
-            font-size: 24px;
-            margin-right: 10px;
-        }
-    </style>
 </head>
 
 <body>
+
+    <!-- header design -->
+
     <header class="header">
+
+        <a href="#" class="logo">Hi Devs.</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
         <nav class="navbar">
-            <div class="logo">Mi Portafolio</div>
-            <ul class="nav-links">
-                <li><a href="#about">Sobre mí</a></li>
-                <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
+            <a href="#home" class="active">Portal.</a>
+            <a href="#about">Sobre mí.</a>
+            <a href="#education">Educación.</a>
+            <a href="#skills">Habilidades.</a>
+            <a href="#contact">Contacto.</a>
+
+            <span class="active-nav"></span>
         </nav>
+
     </header>
 
-    <section id="about" class="section">
-        <div class="container">
-            <h1>Sobre mí</h1>
-            <p>¡Hola! Soy [Javier Rodríguez Sánchez], un apasionado desarrollador de software con experiencia en tecnologías como JAVA y SQL</p>
-        </div>
-    </section>
+    <!-- home section design -->
 
-    <section id="skills" class="section">
-        <div class="container">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Java</li>
-                <li>SQL</li>
-                <li>Spring Boot</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="projects" class="section">
-        <div class="container">
-            <h2>Proyectos</h2>
-            <div class="project">
-                <h3>Proyecto 1</h3>
-                <p>Descripción del proyecto 1.</p>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Javier <span> Rodríguez Sánchez. </span></h1>
+            <div class="text-animate">
+                <h3>Backend Developer</h3>
             </div>
-            <div class="project">
-                <h3>Proyecto 2</h3>
-                <p>Descripción del proyecto 2.</p>
+            <p>Apasionado desarrollador de software con experiencia en Java, SQL y Spring Boot. Me encanta resolver problemas complejos y crear soluciones innovadoras. 
+            En mi tiempo libre, contribuyo a proyectos de código abierto y aprendo nuevas tecnologías</p>
+
+            <div class="btn-box">
+                <a href="#" class="btn">Contrátame.</a>
+                <a href="#" class="btn">Hablemos.</a>
             </div>
         </div>
+
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-stack-overflow'></i>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+        </div>
+
+        <div class="home-imgHover"></div>
     </section>
 
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contacto</h2>
-            <p>Puedes contactarme en: javirodriguezsanchez17@gmail.com</p>
+    <!-- about section design -->
+
+    <section class="about" id="about">
+        <h2 class="heading">Sobre<span> Mí</span></h2>
+
+        <div class="about-img">
+            <img src="C:/Users/javie/Desktop/Start Project Complete Responsive Portfolio Website/images/about.jpg" alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Backend Developer</h3>
+            <p>Soy Javier Rodríguez Sánchez, un apasionado desarrollador de software con una fuerte inclinación hacia la creación de soluciones innovadoras y eficientes. Desde que comencé mi viaje en el mundo de la programación, he estado comprometido con el aprendizaje continuo y la mejora constante de mis habilidades.
+
+                Con una sólida formación en Java, SQL, y Spring Boot, he trabajado en diversos proyectos que me han permitido desarrollar un profundo entendimiento de la arquitectura backend y la integración de sistemas. Mi pasión por la programación no solo se limita a mi trabajo diario; también dedico mi tiempo libre a contribuir a proyectos de código abierto y a explorar nuevas tecnologías emergentes.</p>
+
+                <p>Mi filosofía se basa en el poder de la colaboración y la importancia de compartir conocimientos. Para mí, la programación es más que escribir código; es acerca de resolver problemas reales y crear experiencias que impacten positivamente a los usuarios. Estoy siempre en busca de nuevos desafíos que me permitan crecer tanto profesional como personalmente. </p>
+
+            <div class="btn-box btns">
+                <a href="#" class="btn">Read More</a>
+            </div>
         </div>
     </section>
 
-    <footer class="section">
-        <div class="container">
-            <p>&copy; 2023 Mi Portafolio. Todos los derechos reservados.</p>
-            <div class="social-icons">
-                <a href="https://github.com/tu-usuario" class="icon" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/in/tu-usuario" class="icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <!-- education section design -->
+
+    <section class="education" id="education">
+        <h2 class="heading">Crafting Code: <span>My Developer Journey</span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Formación Académica.</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2016 - 2018</div>
+                            <h3>Bachillerato</h3>
+                            <p>I.E.S. CRISTOBAL DE MONROY</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2022 - 2024</div>
+                            <h3>Grado Superior Desarrollo de Aplicaciones Multiplataformas</h3>
+                            <p>ILERNA</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class ="content">
+                            <div class = "year"><i class='bx bxs-calendar'></i>2010 - 2012|2012-2014</div>
+                            <h3>B1 Inglés Cambridge y B1 Francés</h3>
+                            <p>Escuela Oficial De Idiomas</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <div class="education-column">
+                <h3 class="title">Vida Laboral.</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2017 - 2018</div>
+                            <h3>Camarero</h3>
+                            <p>Simon's Food</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2019 - 2021</div>
+                            <h3>Encargado de reparto</h3>
+                            <p>Simon's Food</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2022 - 2023</div>
+                            <h3>Reparación ordenadores</h3>
+                            <p>MicroData</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section design -->
+
+<section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="skills-row">
+        <div class="skills-column">
+            <h3 class="title">Coding Skills</h3>
+
+            <div class="skills-box">
+                <div class="skills-content">
+                    <div class="progress">
+                        <h3>HTML <span>100%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>CSS <span>70%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Java <span>100%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>SQL <span>100%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>GIT <span>100%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Linux <span>100%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-column">
+            <h3 class="title">Tools Skills</h3>
+
+            <div class="skills-box">
+                <div class="skills-content">
+                    <div class="progress">
+                        <h3>Eclipse | Visual Studio | NetBeans | IntelliJ IDEA<span>100%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>MySQL Workbench | MongoDB <span>100%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Github |  Gitlab<span>100%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Maven | Gradle | NPM<span>100%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>VisualVM | VmWare | Postman<span>100%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Otros<span>100%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </section>
+
+   <!-- contact section design -->
+<section class="contact" id="contact">
+    <h2 class="heading">Conta<span>ctame</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <div class="input-field">
+                <input type="text" placeholder="Full Name" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Email Address" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+
+        <div class="input-box">
+            <div class="input-field">
+                <input type="number" placeholder="Mobile Number" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Email Subject" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+
+        <div class="textarea-field">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <span class="focus"></span>
+        </div>
+
+        <div class="btn-box btns">
+            <button type="submit" class="btn">Submit</button>
+        </div>
+    </form>
+</section>
+
+
+
+    <!-- footer design -->
+
+    <footer class = "footer">
+        <div class = "footer-text">
+            <p>Copyright &copy; 2024 by Javier | Todos los derechos reservados.</p>
+        </div>
+
+        <div class = "footer-iconTop">
+            <a href ="#"><i class='bx bx-up-arrow-alt' ></i></a>
         </div>
     </footer>
 
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
